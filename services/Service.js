@@ -38,6 +38,21 @@ class Service {
     }
   };
 
+  getByIdService = async (id) => {
+    try {
+      return this.model.getById(id);
+    } catch (error) {
+      throw error;
+    }
+  };
+
+  deleteService = async (id) => {
+    try {
+      return this.model.delete(id);
+    } catch (error) {
+      throw error;
+    }
+  };
 }
 
 export default Service;

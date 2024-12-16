@@ -28,6 +28,24 @@ class Controller {
       res.status(400).send({ success: false, message: error.message });
     }
   };
+  getById = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const data = await this.service.getByIdService(id);
+      res.status(200).send({ success: true, message: data });
+    } catch (error) {
+      res.status(404).send({ success: false, message: error.message });
+    }
+  };
+  delete = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const data = await this.service.deleteService(id);
+      res.status(200).send({ success: true, message: data });
+    } catch (error) {
+      res.status(404).send({ success: false, message: error.message });
+    }
+  };
 }
 
 export default Controller;
