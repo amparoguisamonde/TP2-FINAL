@@ -1,67 +1,58 @@
-Proyecto: TP2 Final
+# Proyecto: TP2 Final
 
-Descripción
+## Descripción
 
-Este proyecto es una API REST construida con Node.js y Express que permite ...
+Este proyecto es una API REST construida con **Node.js** y **Express** que permite ...
 
+## Instalación
 
-Instalación
-
-Clonar el repositorio:
+**Clonar el repositorio:**
 
 git clone https://github.com/amparoguisamonde/TP2-FINAL.git
 cd TP2-FINAL
 
-Instalar las dependencias necesarias:
+**Instalar las dependencias necesarias:**
 
 npm install
 
+## Uso - Scripts disponibles
 
-Uso - Scripts disponibles
-
-Iniciar el servidor:
+**Iniciar el servidor:**
 
 npm start
 
-Iniciar el servidor en modo desarrollo (con reinicio automático usando nodemon):
+**Iniciar el servidor en modo desarrollo** (con reinicio automático usando nodemon):
 
 npm run dev
 
-
-Endpoints disponibles
+## Endpoints disponibles
 
 [aca pongo los endpoints para probar dependiendo de la consigna]
 
+## Dependencias
 
-Dependencias
+**Express:** Framework para manejar peticiones HTTP.
 
-Express: Framework para manejar peticiones HTTP.
+**Nodemon** (desarrollo): Reinicia automáticamente el servidor cuando se detectan cambios.
 
-Nodemon (desarrollo): Reinicia automáticamente el servidor cuando se detectan cambios.
-
-
-Configuración del entorno
+## Configuración del entorno
 
 No se requiere configuración adicional para este proyecto. El servidor escucha en el puerto 8080.
 
+## API externa utilizada
 
-API externa utilizada
+**blabla API:** [URL de la api] es una API externa usada para obtener blabla.
 
-blabla API: [URL de la api] es una API externa usada para obtener blabla.
+## Ejecución
 
-
-Ejecución
-
-Inicia el servidor con npm start o npm run dev.
+Inicia el servidor con **npm start** o **npm run dev**.
 
 Accede a los endpoints mediante una herramienta como Postman o Thunder client.
 
-
-Futuras mejoras
+## Futuras mejoras
 
 Implementar persistencia de datos en una base de datos.
 
+## Autora
 
-Autora
-
-Amparo Guisamonde - Proyecto desarrollado para examen final de Taller de programación 2.
+**Amparo Guisamonde** - Proyecto desarrollado para examen final de Taller de programación 2.
